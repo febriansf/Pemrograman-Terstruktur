@@ -1,4 +1,7 @@
 # Pemrograman Terstruktur
 
 - Repositori untuk tugas Pemrograman Terstruktur
-- Menggunakan Python
+- Pendidikan TIK UNS
+
+- NIM  : K3521026
+- Nama : Febrian Sabila Firdaus
