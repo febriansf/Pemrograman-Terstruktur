@@ -1,2 +1,3 @@
 # Python
- Another script
+~ Repositori untuk tugas Pemrograman Terstruktur
+~ Menggunakan Python
