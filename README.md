@@ -1,3 +1,4 @@
-# Python
-- Repositori untuk tugas Pemrograman Terstruktur\n
+# Pemrograman Terstruktur
+
+- Repositori untuk tugas Pemrograman Terstruktur
 - Menggunakan Python
