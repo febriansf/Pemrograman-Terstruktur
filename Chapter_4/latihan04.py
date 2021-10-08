@@ -5,7 +5,7 @@ kecepatanAkeB = 62
 kecepatanBkeC = 70
 
 jamMulai = 6
-mntMulai = 10
+mntMulai = 0
 
 mntIst = 45 / 60
 
