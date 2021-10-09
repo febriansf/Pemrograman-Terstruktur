@@ -1,5 +1,4 @@
 
-
 # Waktu Rental
 # Rental dimulai pukul 06.00 - 23.50
 jamMasuk = 6
@@ -27,13 +26,15 @@ if (slshMnt < 0):
 # Hitung Total Biaya Rental berdasarkan Selisih Waktu
 if (slshJam >= 12):
     totalBiaya = biaya12Jam + biaya1Jam * (slshJam - 12)
-else :
-    totalBiaya = slshJam * biaya1Jam
+    if (slshMnt > 0):
+        totalBiaya = totalBiaya + slshMnt * (biaya1Jam / 60)
 
-if (slshMnt > 0):
-    totalBiaya = totalBiaya + slshMnt * (biaya1Jam / 60)
+else:
+    totalBiaya = biaya12Jam
 
 # Menampilkan Output
+print("Rental mulai pada jam", jamMasuk, "lebih", mntMasuk)
+print("Dan berakhir pada jam", jamKeluar, "lebih", mntKeluar)
 print("Total Durasi Rental adalah", slshJam, "Jam", slshMnt, "Menit")
 print("Total Biaya Rental adalah Rp.", totalBiaya)
 print("Jika dibulatkan menjadi Rp.", round(totalBiaya))
