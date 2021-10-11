@@ -24,7 +24,7 @@ while(True):
     if (statMenikah == 1):
         status = "Menikah"
         tunjMenikah = 10 / 100 * gajiPokok
-        jumAnak = int(input("Masukkan jumlah Anak   : "))
+        jumAnak = int(input("Masukkan jumlah Anak  : "))
         tunjAnak = 5 / 100 * gajiPokok
         tunjAnak = tunjAnak * jumAnak
         break
@@ -49,9 +49,9 @@ print("Golongan         : " + golKar)
 print("Status Menikah   : " + status)
 print("Jumlah Anak      : " + str(jumAnak))
 print("-------------------------------------")
-print("Gaji Pokok       : Rp." , gajiPokok)
-print("Tunjangan Menikah: Rp." , int(tunjMenikah))
-print("Tunjangan Anak   : Rp." , int(tunjAnak))
+print("Gaji Pokok       : Rp.", gajiPokok)
+print("Tunjangan Menikah: Rp.", int(tunjMenikah))
+print("Tunjangan Anak   : Rp.", int(tunjAnak))
 print("-------------------------------------")
 print("Gaji Kotor       : Rp.", int(gajiKotor))
 print("Potongan (" + str(persen) + "%)  : Rp.", int(potongan))
