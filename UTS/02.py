@@ -27,11 +27,14 @@ if (pilihan == '1'):
         if (pemain == hasil):
             skor += 2
             print('Jawaban kamu benar, skor kamu', skor,
-                    ', Nyawa:', nyawa)
+                  ', Nyawa:', nyawa)
         else:
             nyawa -= 1
+            skor -= 2
+            if (skor < 0):
+                skor = 0
             print('Jawaban kamu salah, skor kamu', skor,
-                    ', Nyawa:', nyawa)
+                  ', Nyawa:', nyawa)
             if (nyawa == 0):
                 print('\n=== (Permainan Berakhir) ===')
                 break
@@ -52,11 +55,14 @@ elif (pilihan == '2'):
         if (pemain == hasil):
             skor += 2
             print('Jawaban kamu benar, skor kamu', skor,
-                    ', Nyawa:', nyawa)
+                  ', Nyawa:', nyawa)
         else:
             nyawa -= 1
+            skor -= 2
+            if (skor < 0):
+                skor = 0
             print('Jawaban kamu salah, skor kamu', skor,
-                    ', Nyawa:', nyawa)
+                  ', Nyawa:', nyawa)
             if (nyawa == 0):
                 print('\n=== (Permainan Berakhir) ===')
                 break
@@ -72,11 +78,14 @@ elif (pilihan == '3'):
         if (pemain == hasil):
             skor += 2
             print('Jawaban kamu benar, skor kamu', skor,
-                    ', Nyawa:', nyawa)
+                  ', Nyawa:', nyawa)
         else:
             nyawa -= 1
+            skor -= 2
+            if (skor < 0):
+                skor = 0
             print('Jawaban kamu salah, skor kamu', skor,
-                    ', Nyawa:', nyawa)
+                  ', Nyawa:', nyawa)
             if (nyawa == 0):
                 print('\n=== (Permainan Berakhir) ===')
                 break
