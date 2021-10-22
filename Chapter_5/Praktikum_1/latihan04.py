@@ -16,7 +16,7 @@ while(True):
         persen = 1.5
         break
     elif (golKar == "D") or (golKar == "d"):
-        gajiPokok = 5000000
+        gajiPokok = 5500000
         persen = 1.0
         break
     else:
