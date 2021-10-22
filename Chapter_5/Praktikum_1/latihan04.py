@@ -5,25 +5,25 @@ while(True):
 
     if (golKar == "A") or (golKar == "a"):
         gajiPokok = 10000000
-        potongan = 2.5
+        persen = 2.5
         break
     elif (golKar == "B") or (golKar == "b"):
         gajiPokok = 8500000
-        potongan = 2.0
+        persen = 2.0
         break
     elif (golKar == "C") or (golKar == "c"):
         gajiPokok = 7000000
-        potongan = 1.5
+        persen = 1.5
         break
     elif (golKar == "D") or (golKar == "d"):
         gajiPokok = 5000000
-        potongan = 1.0
+        persen = 1.0
         break
     else:
         print("Golongan Tidak Valid")
 
-gajiKotor = potongan / 100 * gajiPokok
-gajiBersih = gajiPokok - gajiKotor
+potongan = persen / 100 * gajiPokok
+gajiBersih = gajiPokok - potongan
 
 print("=====================================")
 print("STRUK RINCIAN GAJI KARYAWAN")
@@ -32,6 +32,6 @@ print("Nama Karyawan    : " + namaKar + " (Kode : " + kodeKar + ")")
 print("Golongan         : " + golKar)
 print("-------------------------------------")
 print("Gaji Pokok       : Rp.", gajiPokok)
-print("Potongan (" + str(potongan) + "%)  : Rp.", int(gajiKotor))
+print("Potongan (" + str(persen) + "%)  : Rp.", int(potongan))
 print("-------------------------------------")
 print("Gaji Bersih      : Rp.", int(gajiBersih))

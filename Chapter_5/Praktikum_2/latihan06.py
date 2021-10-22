@@ -6,7 +6,7 @@ skor = 100
 print("Tebak angka yang aku pikirkan antara 1 sampai 100")
 
 
-while(True):
+while True:
 
     jawab = int(input("\nTebakan Kamu: "))
     if (jawab > angka):
