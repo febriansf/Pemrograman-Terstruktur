@@ -13,7 +13,7 @@ while(True):
         gajiPokok = 7000000
         persen = 1.5
     elif (golKar == "D") or (golKar == "d"):
-        gajiPokok = 5000000
+        gajiPokok = 5500000
         persen = 1.0
     else:
         print("Golongan Tidak Valid")
