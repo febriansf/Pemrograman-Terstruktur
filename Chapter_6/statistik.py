@@ -6,7 +6,7 @@ def sum(*angka):
 
     return hasil
 
-#Fungsi untuk menghitung banyaknya angka
+#Fungsi untuk menghitung rata-rata data
 def average(*angka):
     hasil = sum(*angka)
     jumlah = 0

@@ -20,11 +20,11 @@ def faktorial(n):
 #    else:
 #        return 1
 
-
+#Menghitung Kombinasi
 def C(a, b):
     return faktorial(a)/(faktorial(b)*faktorial(a-b))
 
-
+#Menghitung Permutasi
 def P(a, b):
     return faktorial(a)/faktorial(a-b)
 
