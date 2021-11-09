@@ -3,8 +3,8 @@ jumlah = 0
 
 print('Program untuk menghitung rata -rata data\n'
       + 'Ketik \'n\'/\'N\' untuk keluar dari program',
-      'dan menampilkan hasilnya :)\n')
-
+      'dan menampilkan hasilnya :)')
+print('=================================================================')
 while True:
     try:
         data = input('Masukkan bilangan bulat: ')
