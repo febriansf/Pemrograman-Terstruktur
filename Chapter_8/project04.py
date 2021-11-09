@@ -5,7 +5,12 @@ def tambah_data(data):
     print(line)
     print('Tambah data')
     nama = input('Masukkan nama sayur: ')
-    data.add(nama)
+    nama = nama.lower()
+    if nama not in data:
+        data.add(nama)
+        print('OK')
+    else:
+        print('DATA SUDAH ADA!!')
 
 
 def hapus_data(data):
@@ -14,6 +19,7 @@ def hapus_data(data):
     while True:
         try:
             nama = input('Masukkan NAMA sayur: ')
+            nama = nama.lower()
             data.remove(nama)
             break
         except:
@@ -51,4 +57,5 @@ while True:
     elif pilihan == 'e' or pilihan == 'E':
         break
     else:
-        print('Input tidak valid')
+        print(line)
+        print('INPUT TIDAK VALID!!')
