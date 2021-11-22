@@ -8,7 +8,7 @@ nilai = [{'nim': 'A01', 'nama': 'Agustina', 'mid': 50, 'uas': 80},
 print('=' * 50)
 print('NIM'.ljust(10), 'NAMA'.ljust(10), 'N.MID'.rjust(10), 'N.UAS'.rjust(10))
 print('-' * 50)
-#Iterasi untuk membaca list dictionary nilai
+#Iterasi untuk membaca list dalam dictionary nilai
 for i in range(len(nilai)):
     print(nilai[i]['nim'].ljust(10),
           nilai[i]['nama'].ljust(10),
