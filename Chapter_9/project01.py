@@ -1,6 +1,9 @@
 def ubahHuruf(teks, a, b):
-    teks = teks.replace(a, b)
-    print(teks)
+    if a in teks:
+        teks = teks.replace(a, b)
+        print(teks)
+    else:
+        print('Huruf', a, 'Tidak ada dalam', teks)
 
 
-ubahHuruf('MATEMATIKA', 'T', 'S')
+ubahHuruf('MATEMATIKA', 'A', 'S')
