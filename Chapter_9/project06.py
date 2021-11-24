@@ -10,8 +10,9 @@ print('NIM'.ljust(10), 'NAMA'.ljust(10), 'N.MID'.rjust(10),
       'N.UAS'.rjust(10), 'N.AKHIR'.rjust(10), 'STATUS'.rjust(12))
 print('-' * 70)
 
-#Iterasi untuk membaca value dari key 'mid' dan 'uas' dari setiap dictionary dalam list nilai
+#Iterasi untuk membaca tiap dictionary pada list nilai
 for data in nilai:
+    #Membaca value dari key 'mid' dan 'uas' dari setiap dictionary dalam list nilai
     #Menghitung nilai akhir berdasarkan rumus (mid + 2 * uas) / 3
     nilaiAkhir = (data['mid'] + (2 * data['uas'])) / 3
     #Menambahkan nilai akhir ke dalam dictionary
