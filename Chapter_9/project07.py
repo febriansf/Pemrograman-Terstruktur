@@ -10,25 +10,28 @@ print('NIM'.ljust(10),
 print('-' * 60)
 
 #Iterasi untuk membaca tiap element dalam list mhs
-for i in range(len(mhs)):
-    #Memecah tiap nilai dalam list mhs menjadi sublist
-    x = mhs[i].split(':')
-    #Nilai awal jarak untuk jusifikasi
-    jarak = 11
-    #Iterasi untuk mencetak nilai dalam sublist
-    for j in range(len(x)):
-        #Jika sampai pada index 2 pada sublist yg mana adalah tgl lahir
-        if j == 2:
-            #Memecah string tgl lahir menjadi sublist berdasarkan karakter '-'
-            tgl = x[j].split('-')
-            #Membalik urutan element dalam sublist tgl
+for data in mhs:
+    #Memecah element string pada list menjadi sublist
+    #-berdasarkan karakter '-'
+    split_data = data.split(':')
+    #Mendefinsikan jarak spasi awal
+    space = 11
+    #Iterasi untuk mencetak tiap elemen pada sublist data
+    for i in range(len(split_data)):
+        #Jika sampai pada index 2 yang berisi string tgl lahir
+        if i == 2:
+            #Memecah string tgl lahir menjadi list
+            #-dan menyimpannya pada variabel tgl
+            tgl = split_data[i].split('-')
+            #Membalik urutan index list tgl
             tgl.reverse()
-            #Menggabungkan sublist tgl menjadi string dan mencetaknya ke konsol
-            print('/'.join(tgl).ljust(jarak), end='')
-            #Melompati syntax berikutnya karena nilai tgl sudah dieksekusi
+            #Menggabungkan elemen pada list tgl menjadi string
+            #-dan mencetaknya ke konsol
+            print('/'.join(tgl).ljust(space), end='')
+            #Melompati syntax berikutnya
             continue
-        print(x[j].ljust(jarak), end='')
-        #Mengubah nilai jarak untuk justifikasi
-        jarak = 21
-    #Mencetak newline
+        print(split_data[i].ljust(space), end='')
+        #Mendefinisikan jarak spasi selanjutnya
+        space = 21
+    #Pindah baris
     print('')
