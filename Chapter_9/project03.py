@@ -11,11 +11,11 @@ def diamond(baris):
         for i in range(n, 0, -1):
             print(('*' * (2 * i - 1)).center(space))
 
-    atas(baris // 2)
-    #Cek Jika baris = genap, baris bagian bawah - 1
-    if (baris % 2 == 0):
-        bawah(baris//2)
+    #Cek nilai baris
+    if baris % 2 == 0:
+        print("Error... Jumlah baris harus bilangan ganjil")
     else:
+        atas(baris//2)
         bawah(baris//2+1)
 
 
