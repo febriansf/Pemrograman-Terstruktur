@@ -13,7 +13,7 @@ def shuffleString(string, n=1):
         #-Dan menyimpannya ke dalam variabel randString
         randString = ''.join(random.sample(string, len(string)))
         #Memeriksa apakah nilai randString belum ada dalam listString
-        #-Jika True nilai dari randString akan dtambahkan ke dalam listString
+        #-Jika True, nilai dari randString akan dtambahkan ke dalam listString
         if randString not in listString:
             listString.append(randString)
 
