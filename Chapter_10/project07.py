@@ -1,6 +1,6 @@
 try:
-    #input_file = input('Masukkan file yang ingin di dekripsi: ')
-    input_file = 'file/encrypted.dat'
+    input_file = input('Masukkan file yang ingin di dekripsi: ')
+    #input_file = 'file/encrypted.dat'
     enc_file = open(input_file, 'r')
     dec_file = open('file/decrypted.dat', 'w')
 
