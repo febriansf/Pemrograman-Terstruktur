@@ -1,6 +1,6 @@
 try:
-    #input_file = input('Masukkan nama file yang ingin di enkripsi: ')
-    input_file = 'file/teks.dat'
+    input_file = input('Masukkan nama file yang ingin di enkripsi: ')
+    #input_file = 'file/teks.dat'
     file = open(input_file, 'r')
     enc_file = open('file/encrypted.dat', 'w')
 
