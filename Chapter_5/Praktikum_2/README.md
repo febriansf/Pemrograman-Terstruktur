@@ -45,8 +45,21 @@
       Banyaknya bilangan ganjil: XXX
       Jumlah seluruh bilangan: XXX
     ```
-    
-4.	Tinjau kembali kode program pada Langkah Kerja nomor 10 di atas. Modifikasilah kode programnya sehingga diperoleh tampilan seperti ini:
+
+4.	Tinjau kembali kode program di bawah.
+    ```python
+        baris = 5
+
+        i = 0
+        while (i < baris):
+            j = 0
+            i += 1
+        while ( j < i):
+            print("*", end="")
+            j += 1
+        print("")
+    ```
+      Modifikasilah kode programnya sehingga diperoleh tampilan seperti ini:
     ```
       *****
       ****
