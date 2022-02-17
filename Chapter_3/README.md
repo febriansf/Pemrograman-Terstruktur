@@ -30,37 +30,37 @@ Langkah Kerja:
   1.	Buatlah file baru dengan nama latihan03.py
   2.	Ketikkan kode program berikut ini
 
-        # import library
+        ## import library
         import time
         import datetime
 
-        # input nama user
+        ## input nama user
         nama = input("Hallo... nama saya Mr. Kompie, nama Anda siapa? ")
 
-        # tampilkan nama user
+        ## tampilkan nama user
         print("Oh.. nama Anda", nama, ", nama yang bagus sekali.")
 
 
-        # kasih jeda 3 detik
+        ## kasih jeda 3 detik
         time.sleep(3)
 
-        # input tahun lahir
+        ## input tahun lahir
         thnLahir = int(input("BTW... " + nama + "kamu lahir tahun berapa? "))
 
-        # kasih jeda 3 detik
+        ## kasih jeda 3 detik
         time.sleep(3)
 
-        # hitung usia user 
+        ## hitung usia user 
         skrg = datetime.datetime.now()
         usia = skrg.year + thnLahir
         
-        # tampilkan usia
+        ## tampilkan usia
         print("Hmmm...", namax,"kamu sudah", usia,"tahun ya..")
         
-        # kasih jeda 3 detik
+        ## kasih jeda 3 detik
         time.sleep(3)
         
-        # tampilkan pesan sesuai range usia
+        ## tampilkan pesan sesuai range usia
         if (usia > 50):
             print("Anda sudah cukup tua ya?)
             print("Jaga kesehatan ya!!")
@@ -74,10 +74,10 @@ Langkah Kerja:
             print("Oalah.. Anda masih anak-anak toh?")
             print("Jangan suka merengek-rengek minta jajan ya!!")
         
-        # kasih jeda 3 detik
+        ## kasih jeda 3 detik
         time.sleep(3)
         
-        # say goodbye
+        ## say goodbye
         print("OK.. see you later", nama, ".. senang berkenalan denganmu")
         
         
