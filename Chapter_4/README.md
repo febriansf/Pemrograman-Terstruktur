@@ -8,6 +8,12 @@ Buatlah script Python untuk menyelesaikan permasalahan-permasalahan berikut ini!
 5.	Buatlah grafik diagram batang horizontal yang merepresentasikan data jumlah anak laki-laki dan perempuan dari mahasiswa PTIK UNS. 
 
         Contoh Input Program
-        Jumlah Mhs Laki-laki  : 100Jumlah Mhs Perempuan  : 150
-        Contoh Output ProgramLaki-laki   : ********** (100)Perempuan   : *************** (150)
+
+        Jumlah Mhs Laki-laki  : 100
+        Jumlah Mhs Perempuan  : 150
+
+        Contoh Output Program
+
+        Laki-laki   : ********** (100)
+        Perempuan   : *************** (150)
 
